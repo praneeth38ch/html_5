@@ -1,0 +1,13 @@
+Document.title="Dom in javaScript";
+document.body.style.backgroundColor="lightblue";
+document.getElementById("header").innerHTML="Hello ,World!";
+document.getElementById("para").style.color="green";
+document.getElementById("para").style.fontSize="30px";
+document.getElementById("a").style.color="blue";
+document.getElementById("a").style.fontSize="30px";
+document.getElementById("b").style.color="red";
+document.getElementById("b").style.fontSize="30px";
+document.getElementById("c").style.color="brown";
+document.getElementById("c").style.fontSize="30px";
+document.getElementById("d").style.color="yellow";
+document.getElementById("d").style.fontSize="30px";
