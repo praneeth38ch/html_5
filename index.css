@@ -1,0 +1,199 @@
+
+/* General styles for the application */
+body {  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1, h2, h3 {
+    color: #333;
+}
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Navigation styles */
+nav {   
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}   
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav a:hover {
+    background-color: #575757;
+}
+/* Main content styles */   
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(123, 98%, 17%);
+}
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+/* Alert styles */
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+.alert-error {
+    background-color: #f2dede;
+    color: #a94442;
+}   
+.alert-info {
+    background-color: #d9edf7;
+    color: #31708f;
+}
+.alert-warning {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+}
+/* Card styles */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+.card-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-body {
+    font-size: 14px;
+    color: #555;
+}
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+table tr:hover {
+    background-color: #f1f1f1;
+}
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* List styles */
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+li {
+    margin: 5px 0;
+}
+/* Link styles */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Code block styles */
+pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Highlighted code styles */
+.highlight {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 3px;
+}
